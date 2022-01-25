@@ -75,11 +75,12 @@ const Wrapper = styled.div`
 			outline-color: var(--clr-grey-10);
 			letter-spacing: var(--spacing);
 			color: var(--clr-grey-3);
+			color: #fff;
 			padding: 0.25rem 0.5rem;
 		}
 		input::placeholder {
 			color: var(--clr-grey-3);
-			color: #fff;
+			color: #c09e04;
 			text-transform: capitalize;
 			letter-spacing: var(--spacing);
 		}
