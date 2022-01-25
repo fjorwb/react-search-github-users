@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactFC from 'react-fusioncharts';
-import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.candy';
 import FusionCharts from 'fusioncharts';
 import Chart from 'fusioncharts/fusioncharts.charts';
 
@@ -24,7 +24,7 @@ const ChartComponent = ({ data }) => {
 				xAxisName: 'Repos',
 				xAxisNameFontSize: '16px',
 				yAxisNameFontSize: '16px',
-				theme: 'fusion',
+				theme: 'candy',
 				showPercentValues: '1',
 				decimals: 2,
 				pieRadius: '35%',

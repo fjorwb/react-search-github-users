@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactFC from 'react-fusioncharts';
-import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.candy';
 import FusionCharts from 'fusioncharts';
 import Chart from 'fusioncharts/fusioncharts.charts';
 
@@ -20,7 +20,7 @@ const ChartComponent = ({ data }) => {
 			// Chart Configuration
 			chart: {
 				caption: 'Languages',
-				theme: 'fusion',
+				theme: 'candy',
 				showPercentValues: '1',
 				decimals: 2,
 				pieRadius: '35%',
