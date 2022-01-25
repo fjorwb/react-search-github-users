@@ -73,6 +73,7 @@ const Wrapper = styled.section`
 		border-radius: var(--radius);
 		padding: 1rem 2rem;
 		background: var(--clr-white);
+		background: #333;
 		display: grid;
 		grid-template-columns: auto 1fr;
 		column-gap: 3rem;
@@ -90,6 +91,7 @@ const Wrapper = styled.section`
 		h3 {
 			margin-bottom: 0;
 			letter-spacing: 0;
+			color: #fff;
 		}
 		p {
 			margin-bottom: 0;
@@ -98,18 +100,26 @@ const Wrapper = styled.section`
 		.pink {
 			background: #ffe0f0;
 			color: #da4a91;
+			background: #da4a91;
+			color: #ffe0f0;
 		}
 		.green {
 			background: var(--clr-primary-10);
 			color: var(--clr-primary-5);
+			background: var(--clr-primary-5);
+			color: var(--clr-primary-10);
 		}
 		.purple {
 			background: #e6e6ff;
 			color: #5d55fa;
+			background: #5d55fa;
+			color: #e6e6ff;
 		}
 		.yellow {
 			background: #fffbea;
 			color: #f0b429;
+			background: #f0b429;
+			color: #fffbea;
 		}
 	}
 `;

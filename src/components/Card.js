@@ -37,6 +37,7 @@ const Card = () => {
 };
 const Wrapper = styled.article`
 	background: var(--clr-white);
+	background: #c09e04;
 	padding: 1.5rem 2rem;
 	border-top-right-radius: var(--radius);
 	border-bottom-left-radius: var(--radius);
@@ -49,7 +50,9 @@ const Wrapper = styled.article`
 		left: 0;
 		transform: translateY(-100%);
 		background: var(--clr-white);
+		background: #c09e04;
 		color: var(--clr-grey-5);
+		color: #fff;
 		border-top-right-radius: var(--radius);
 		border-top-left-radius: var(--radius);
 		text-transform: capitalize;
@@ -76,7 +79,9 @@ const Wrapper = styled.article`
 		}
 		a {
 			color: var(--clr-primary-5);
+			color: #fff;
 			border: 1px solid var(--clr-primary-5);
+			border: 1px solid #fff;
 			padding: 0.25rem 0.75rem;
 			border-radius: 1rem;
 			text-transform: capitalize;
@@ -91,6 +96,7 @@ const Wrapper = styled.article`
 	}
 	.bio {
 		color: var(--clr-grey-3);
+		color: #fff;
 	}
 	.links {
 		p,
@@ -105,12 +111,15 @@ const Wrapper = styled.article`
 		}
 		a {
 			color: var(--clr-primary-5);
+			color: #fff;
 			transition: var(--transition);
 			svg {
 				color: var(--clr-grey-5);
+				color: #fff;
 			}
 			&:hover {
 				color: var(--clr-primary-3);
+				color: #222;
 			}
 		}
 	}

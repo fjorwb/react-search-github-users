@@ -27,6 +27,7 @@ const Followers = () => {
 
 const Wrapper = styled.article`
 	background: var(--clr-white);
+	background: #c09e04;
 	border-top-right-radius: var(--radius);
 	border-bottom-left-radius: var(--radius);
 	border-bottom-right-radius: var(--radius);
@@ -39,7 +40,9 @@ const Wrapper = styled.article`
 		left: 0;
 		transform: translateY(-100%);
 		background: var(--clr-white);
+		background: #c09e04;
 		color: var(--clr-grey-5);
+		color: #fff;
 		border-top-right-radius: var(--radius);
 		border-top-left-radius: var(--radius);
 		text-transform: capitalize;
@@ -74,6 +77,7 @@ const Wrapper = styled.article`
 		}
 		a {
 			color: var(--clr-grey-5);
+			color: #fff;
 		}
 	}
 `;
